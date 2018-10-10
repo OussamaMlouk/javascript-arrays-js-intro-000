@@ -7,5 +7,6 @@ return [element, ...array]
 var array = [1]
 
 function destructivelyAddElementToBeginningOfArray(array,foo){
-  return array.unshift(foo)
+  array.unshift(foo)
+  return array
 }
